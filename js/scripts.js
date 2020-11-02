@@ -15,3 +15,9 @@ function Destination(location, landmarks, timeOfYear, travelCompanion, notes) {
   this.travelCompanion = travelCompanion;
   this.notes = notes;
 }
+
+Destination.prototype.updateTimeOfYear = function(newTimeOfYear) {
+  this.timeOfYear= [this.timeOfYear];
+  this.timeOfYear.push(newTimeOfYear);
+}
+let berlin = new Destination("Berlin", ["Alexanderpaltz", "Berlin Wall"], "Summer", "Michael", "Study abroad")
