@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Where in the World?</title>
+</head>
+<body>
+  <h1>Where in the World?</h1>
+  <h2>Add a Destination:</h2>
+  <form id="new-destination">
+    <label for="location">Location</label>
+    <input type="text" id="location">
+    <label for="landmarks">Landmarks</label>
+    <input type="text" id="landmarks">
+    <label for="time-of-year">Time of Year</label>
+    <input type="text" id="time-of-year">
+    <label for="travel-companion" id="travel-companion">Tavel Companion</label>
+    <input type="text" id="travel-companion">
+    <label for="notes">Additional Notes</label>
+    <input type="text" id="notes">
+    <button type="submit">Add Destination!</button>
+  </form>
+
+  <h2>Destinations:</h2>
+  <ul id="destinations">
+  </ul>
+
+  <div id="show-destinations">
+    <p>Location: <span class="location"></span></p>
+    <p>Landmarks: <span class="landmarks"></span></p>
+    <p>Time of Year: <span class="time-of-year"></span></p>
+    <p>Travel Companion: <span class="travel-companion"></span></p>
+    <p>Notes: <span class="notes"></span></p>
+    <div id="buttons">
+    </div>
+  </div>
+
+</body>
+</html>   
